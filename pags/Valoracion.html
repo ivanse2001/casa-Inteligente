@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una casa inteligente · Valoración</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Valoracion.html">Valoración</a></li>
+                <li><a href="Resumen.html">Resumen</a></li>
+                <li><a href="Desventajas.html">Desventajas</a></li>
+                <li><a href="Beneficios.html">Beneficios</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Construccion.html">Construcción</a></li>
+                <li><a href="QueEs.html">¿Qué es?</a></li>
+                <li><a href="/index.html"><strong>Inicio</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contenido wrapper">
+            <h2>Valoración del contenido.</h2>
+
+                <p>Elección siendo 1 el valor más bajo y 5 el más alto:</p>
+
+                <form>
+                    <input class="radio" type="radio" name="valoración" value="1"> 1
+                    <input class="radio" type="radio" name="valoración" value="2"> 2
+                    <input class="radio" type="radio" name="valoración" value="3"> 3
+                    <input class="radio" type="radio" name="valoración" value="4"> 4
+                    <input class="radio" type="radio" name="valoración" value="5"> 5
+                    <button id="elección"><span>Confirmar</span></button>
+                </form>
+
+                <p id="formulario">Algún comentario (opcional):</p>
+
+                <form>
+                    <label for="comentario">Añadir comentario:</label>
+                    <input type="text" id="comentario">
+                    <button id="confirmar"><span>Confirmar</span></button>
+                </form>
+        </section>
+    </main>
+</body>
